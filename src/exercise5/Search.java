@@ -20,10 +20,9 @@ public class Search {
         int number = input.nextInt();
 
         int numberIndex = -1;
-        
-        for(int i = 0 ; i<numbers.length; i++){
-          if(number==numbers[i]){
-            numberIndex=1;
+        for(int index = 0 ; index<numbers.length; index++){
+          if(number==numbers[index]){
+            numberIndex=index;
             break;
           }
         }
